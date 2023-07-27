@@ -52,7 +52,7 @@ void SysTick_Handler(void)
 }
 /*************************************************************************************************/
 
-
+void Init_Gpit(void);
 void delay(int rep);
 void delayMillis();
 int main(void)
