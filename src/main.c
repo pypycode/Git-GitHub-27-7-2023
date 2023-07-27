@@ -64,9 +64,9 @@ int main(void)
     
 	while(1)
 	{
-		GPIOC->ODR  |= (1U << 13);
+		GPIOC->ODR  |= (1U << 13);    // set bit 
 		delay(10);
-		GPIOC->ODR  &= ~(1U << 13);
+		GPIOC->ODR  &= ~(1U << 13);   // clear bit 
 		delay(10);
 		
 	}
