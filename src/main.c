@@ -1,4 +1,4 @@
-
+e
 
 #include "stm32f10x.h"                  // Device header
 
@@ -55,7 +55,7 @@ void SysTick_Handler(void)
 
 
 void delay(int rep);
-
+void delayMillis();
 int main(void)
 {
 	RCC->APB2ENR |= 0x10; 
@@ -65,9 +65,9 @@ int main(void)
     
 	while(1)
 	{
-		GPIOC->ODR  |= 0x2000;
+		GPIOC->ODR  |= (1U << 13);    // set bit 
 		delay(10);
-		GPIOC->ODR  &= ~0x2000;
+		GPIOC->ODR  &= ~(1U << 13);   // clear bit 
 		delay(10);
 		
 	}
@@ -85,5 +85,9 @@ void delay(int rep)
         }
 	}
 }
+
+
+
+
 
 
