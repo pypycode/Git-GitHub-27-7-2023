@@ -53,7 +53,7 @@ void SysTick_Handler(void)
   }
 }
 /*************************************************************************************************/
-
+/*  Edit Branch 2 by Tuan */
 void Init_Gpit(void);
 void delay(int rep);
 void delayMillis(int millis);
