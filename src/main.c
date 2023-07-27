@@ -61,6 +61,7 @@ int main(void)
 	GPIOC->CRH &= 0xFF0FFFFF;  
 	GPIOC->CRH |= 0x00300000;  
 	GPIOC->ODR  |= 0x2000;      
+    
 	while(1)
 	{
 		GPIOC->ODR  |= 0x2000;
