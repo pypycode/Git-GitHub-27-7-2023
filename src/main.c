@@ -75,7 +75,7 @@ int main(void)
 	}
 
 }
-
+/*  Edit Line 78 Branch 2 by Tuan */
 void delay(int rep)
 {
 	for(;rep>0;rep--)
