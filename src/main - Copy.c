@@ -2,8 +2,6 @@ e
 
 #include "stm32f10x.h"                  // Device header
 
-
-#them flash
 /*************************************************************************************************/
 void Reserved_IRQHandler(void)
 {
@@ -56,7 +54,7 @@ void SysTick_Handler(void)
 
 void Init_Gpit(void);
 void delay(int rep);
-void delayMillis(int millis);
+void delayMillis();
 int main(void)
 {
 	RCC->APB2ENR |= 0x10; 
