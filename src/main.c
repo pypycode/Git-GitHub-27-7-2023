@@ -54,7 +54,7 @@ void SysTick_Handler(void)
 
 void Init_Gpit(void);
 void delay(int rep);
-void delayMillis();
+void delayMillis(int millis);
 int main(void)
 {
 	RCC->APB2ENR |= 0x10; 
