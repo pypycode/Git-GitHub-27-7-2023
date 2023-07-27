@@ -2,6 +2,8 @@ e
 
 #include "stm32f10x.h"                  // Device header
 
+
+#them flash
 /*************************************************************************************************/
 void Reserved_IRQHandler(void)
 {
