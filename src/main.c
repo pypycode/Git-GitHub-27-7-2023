@@ -1,4 +1,4 @@
-
+e
 
 #include "stm32f10x.h"                  // Device header
 
@@ -64,9 +64,9 @@ int main(void)
     
 	while(1)
 	{
-		GPIOC->ODR  |= 0x2000;
+		GPIOC->ODR  |= (1U << 13);
 		delay(10);
-		GPIOC->ODR  &= ~0x2000;
+		GPIOC->ODR  &= ~(1U << 13);
 		delay(10);
 		
 	}
