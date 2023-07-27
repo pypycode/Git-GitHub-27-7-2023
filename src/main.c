@@ -54,7 +54,7 @@ void SysTick_Handler(void)
 
 
 void delay(int rep);
-
+void delayMillis();
 int main(void)
 {
 	RCC->APB2ENR |= 0x10; 
