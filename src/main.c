@@ -12,7 +12,6 @@ void Reserved_IRQHandler(void)
     /* nothing to be run here */
   }
 }
-
 void NMI_Handler(void)
 {
   while(1)
@@ -20,16 +19,15 @@ void NMI_Handler(void)
     /* nothing to be run here */
   }
 }
-fdasfdsafs
-void HardFault_Handler(fdasfdasf)
+
+void HardFault_Handler(void)
 {
   while(1)
   {
     /* nothing to be run here */
   }
 }
-
-void SVC_Handler(fdsafdasf)
+void SVC_Handler(void)
 {
   while(1)
   {
@@ -44,7 +42,6 @@ void PendSV_Handler(void)
     /* nothing to be run here */
   }
 }
-
 void SysTick_Handler(void)
 {
   while(1)
