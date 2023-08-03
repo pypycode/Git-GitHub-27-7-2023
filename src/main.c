@@ -19,7 +19,13 @@ void NMI_Handler(void)
     /* nothing to be run here */
   }
 }
-
+void testgit(void)
+{
+  while(1)
+  {
+    /* nothing to be run here */
+  }
+}
 void HardFault_Handler(void)
 {
   while(1)
