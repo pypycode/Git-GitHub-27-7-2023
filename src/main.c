@@ -12,7 +12,7 @@ void Reserved_IRQHandler(void)
     /* nothing to be run here */
   }
 }
-
+abvc
 void NMI_Handler(void)
 {
   while(1)
@@ -20,7 +20,7 @@ void NMI_Handler(void)
     /* nothing to be run here */
   }
 }
-void HardFault_Handler(void)
+void HardFault_Handler(abvc)
 {
   while(1)
   {
@@ -28,7 +28,7 @@ void HardFault_Handler(void)
   }
 }
 
-void SVC_Handler(void)
+void SVC_Handler(abvc)
 {
   while(1)
   {
