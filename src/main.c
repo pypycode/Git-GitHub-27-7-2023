@@ -20,7 +20,6 @@ void NMI_Handler(void)
     /* nothing to be run here */
   }
 }
-
 void HardFault_Handler()
 {
   while(1)
