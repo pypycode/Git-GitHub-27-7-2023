@@ -20,7 +20,8 @@ void NMI_Handler(void)
     /* nothing to be run here */
   }
 }
-void HardFault_Handler(void)
+fdasfdsafs
+void HardFault_Handler(fdasfdasf)
 {
   while(1)
   {
@@ -28,7 +29,7 @@ void HardFault_Handler(void)
   }
 }
 
-void SVC_Handler(void)
+void SVC_Handler(fdsafdasf)
 {
   while(1)
   {
