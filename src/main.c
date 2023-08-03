@@ -19,7 +19,7 @@ void NMI_Handler(void)
     /* nothing to be run here */
   }
 }
-void got(void)
+void testgit(void)
 {
   while(1)
   {
