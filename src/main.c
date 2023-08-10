@@ -40,13 +40,6 @@ void SVC_Handler(void)
     /* nothing to be run here */
   }
 }
-void PendSV_Handler(void)
-{
-  while(1)
-  {
-    /* nothing to be run here */
-  }
-}
 void SysTick_Handler(void)
 {
   while(1)
