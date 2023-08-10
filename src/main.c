@@ -26,8 +26,6 @@ void HardFault_Handler(void)
     /* nothing to be run here */
   }
 }
-
-123
 void SVC_Handler(void)
 {
   while(1)
